@@ -1,0 +1,267 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="iomHtDrFXgtKrNO1VFwB">
+    <mxGraphModel dx="3770" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Siswa" vertex="1">
+          <mxGeometry height="54" width="99" x="130" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Guru Pengampu" vertex="1">
+          <mxGeometry height="54" width="172" x="-70" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-3" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="1.1&#xa;Menerima Data&#xa;Login" vertex="1">
+          <mxGeometry height="212" width="212" x="430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-4" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="1.2&#xa;Validasi&#xa;Kredensial" vertex="1">
+          <mxGeometry height="195" width="195" x="438.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-5" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="1.3&#xa;Manajemen&#xa;Hak Akses" vertex="1">
+          <mxGeometry height="215" width="215" x="430" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-7" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-3" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-4" value="Data Input">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-8" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-5" value="Status Validasi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-9" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-1" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-3" value="Username &amp; Password">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-10" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-2" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=0;entryY=1;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-3" value="NIP &amp; Password">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="16" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-11" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-16" value="Cek Kecocokan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-12" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-16" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=1;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-4" value="Data Akun Ditemukan/Tidak">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="419" />
+            </Array>
+            <mxPoint x="780" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-13" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-5" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0;entryX=0.5;entryY=1;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-1" value="Akses Dashboard Siswa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-14" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-5" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=1;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-2" value="Akses Dashboard Guru">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="16" y="828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-16" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#EEEEEE,#1F2020);" value="Data Pengguna" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="457.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Siswa" vertex="1">
+          <mxGeometry height="54" width="99" x="1190" y="480.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Guru Pengampu" vertex="1">
+          <mxGeometry height="54" width="172" x="1070" y="123.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-20" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="2.1&#xa;Kelola Materi&#xa;Visual" vertex="1">
+          <mxGeometry height="203" width="203" x="1497" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-21" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="2.2&#xa;Tampilkan&#xa;Modul Teori" vertex="1">
+          <mxGeometry height="215" width="215" x="1491" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-22" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="2.3&#xa;Validasi Simulasi&#xa;Drag-and-Drop" vertex="1">
+          <mxGeometry height="215" width="215" x="1491" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-24" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-21" value="Pembaruan Data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-25" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-21" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-22" value="Materi Selesai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-26" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-19" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-20" value="Upload Teks &amp; Gambar Komponen">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-27" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-20" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-33" value="Simpan Materi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-28" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-33" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-21" value="Data Teks &amp; Visual">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-29" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-21" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-18" value="Tampilan Halaman Modul">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1239" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-30" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-18" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-22" value="Interaksi Posisi Komponen PC">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="868" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-31" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-33" style="curved=0;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=1;entryY=0.21;rounded=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-22" value="Aturan Kecocokan Socket/Slot">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-32" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-22" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-18" value="Animasi Feedback Berhasil/Gagal">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="790" />
+              <mxPoint x="1390" y="508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-33" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#EEEEEE,#1F2020);" value="Data Pengguna" vertex="1">
+          <mxGeometry height="60" width="120" x="1910" y="477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Siswa" vertex="1">
+          <mxGeometry height="54" width="99" x="93.5" y="1690.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Guru Pengampu" vertex="1">
+          <mxGeometry height="54" width="172" x="57" y="1334" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-36" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="3.1&#xa;Kelola Bank&#xa;Soal Kuis" vertex="1">
+          <mxGeometry height="212" width="212" x="432" y="1258" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-37" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="3.2&#xa;Pelaksanaan&#xa;Sesi Kuis" vertex="1">
+          <mxGeometry height="215" width="215" x="430.5" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-38" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="3.3&#xa;Kalkulasi &amp;&#xa;Simpan Skor" vertex="1">
+          <mxGeometry height="215" width="215" x="429" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-41" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-36" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-37" value="Ketersediaan Soal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-42" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-37" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-38" value="Sesi Selesai">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-43" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-35" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-36" value="Input Soal &amp; Kunci Jawaban">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-44" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-36" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-52" value="Simpan Pertanyaan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="949.9999999999995" y="1364.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-45" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-52" style="curved=0;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=1;entryY=0.07;rounded=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-37" value="Ambil Soal Sesuai Modul">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="1647" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-46" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-37" style="curved=0;startArrow=none;endArrow=block;exitX=0.26;exitY=0;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-34" value="Tampilkan Pertanyaan &amp; Opsi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-47" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-34" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-37" value="Kirim Pilihan Jawaban">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-48" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-37" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=1;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-38" value="Data Jawaban Siswa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-49" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-52" style="curved=0;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=1;entryY=0.25;rounded=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-38" value="Cek Kunci Jawaban">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="2029" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-50" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-38" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-53" value="Simpan Hasil Akhir">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="836.5" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-51" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-38" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=1;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-34" value="Tampilkan Rekap Skor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="143" y="2078" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-52" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#EEEEEE,#1F2020);" value="Data Kuis" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="1334" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-53" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#EEEEEE,#1F2020);" value="Data Riwayat Nilai" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-55" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Siswa" vertex="1">
+          <mxGeometry height="54" width="99" x="1260.25" y="1344" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-56" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Guru Pengampu" vertex="1">
+          <mxGeometry height="54" width="172" x="1177.25" y="1636.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-57" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="4.1&#xa;Pengambilan&#xa;Skor Individu" vertex="1">
+          <mxGeometry height="215" width="215" x="1545.25" y="1263.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-58" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="4.2&#xa;Filter Rekapitulasi&#xa;Kelas" vertex="1">
+          <mxGeometry height="215" width="215" x="1545.25" y="1553" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-59" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="4.3&#xa;Cetak Dokumen&#xa;Laporan" vertex="1">
+          <mxGeometry height="215" width="215" x="1545.25" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-61" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-57" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-58" value="Data Diperoleh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-62" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-58" style="curved=0;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-59" value="Data Siap Cetak">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1940.25" y="1860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-63" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-69" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-57" value="Data Nilai Siswa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-64" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-57" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-55" value="Tampilan Skor Akhir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-65" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-56" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-58" value="Permintaan Rekap Evaluasi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-66" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-69" style="curved=0;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-58" value="Kumpulan Riwayat Nilai">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960.25" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-67" edge="1" parent="1" source="_fW-VeiSbGaGm-fCO0ZH-59" style="curved=0;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.44;entryY=1.048;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;" target="_fW-VeiSbGaGm-fCO0ZH-56" value="Dokumen Laporan Nilai">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1253" y="2034" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fW-VeiSbGaGm-fCO0ZH-69" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#EEEEEE,#1F2020);" value="Data Riwayat Nilai" vertex="1">
+          <mxGeometry height="60" width="120" x="1899.75" y="1341" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
